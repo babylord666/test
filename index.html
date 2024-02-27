@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blake's Finance INC  Website</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("flowfield(18).png");
+    background-size: cover; /* or contain, depending on your preference */
+    background-repeat: no-repeat;
+    /* Add more styling if needed */
+  }
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+    display: none; /* hide by default */
+    justify-content: center;
+    align-items: center;
+  }
+  .popup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    max-width: 80%;
+    text-align: center;
+  }
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+  }
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup-container">
+      <span class="close-button" onclick="closePopup()">X</span>
+      <h1>Welcome to Blake's First Website!</h1>
+      <p>Hello, I'm Blake's Assistant, and I'm here to help you connect with the world's greatest tax professionals.</p>
+    </div>
+  </div>
+
+  <!-- Image section -->
+  <img src="Screenshot 2024-02-02 at 09-43-21 phillip lopp (@philjoyrd) • Instagram photos and videos.png" alt="Screenshot Image">
+
+  <script>
+    // Function to close the popup
+    function closePopup() {
+      document.getElementById("popupOverlay").style.display = "none";
+    }
+
+    // Show the popup as soon as the page loads
+    window.onload = function() {
+      document.getElementById("popupOverlay").style.display = "flex";
+    };
+  </script>
+</body>
+</html>
+
+  <img src="Screenshot 2024-02-02 at 09-43-21 phillip lopp (@philjoyrd) • Instagram photos and videos.png" alt="Screenshot Image">
+</body>
+</html>
+
